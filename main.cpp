@@ -241,7 +241,7 @@ main ()
     (double) (stop.tv_usec - start.tv_usec) / 1000000 +
     (double) (stop.tv_sec - start.tv_sec);
   cout << "time taken: " << secs << endl;
-//-----------------------------------------------------------
+//------------------------------------------------------------
   secs = 0;
 
   cout << "100,000 elements sorted" << endl;
